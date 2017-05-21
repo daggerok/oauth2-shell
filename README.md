@@ -2,7 +2,9 @@
 
 a little helper functions for bash and fish shell interpreters, which makes testing secured api little bit easier (for personal use only)
 
-## httpie (require: jq)
+**note: require jq**
+
+## httpie
 
 ### fish
 
@@ -55,7 +57,7 @@ api
 api get :8080/api/get-transactions\?client=test
 ```
 
-## curl (require: jq)
+## curl
 
 ### fish
 
